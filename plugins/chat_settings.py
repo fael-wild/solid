@@ -25,7 +25,7 @@ async def new_member_(client: Client, message: Message):
                     [
                         [
                             InlineKeyboardButton("Channel", url=config.CHANNEL),
-                            InlineKeyboardButton("Developer", url="https://t.me/talktoabdul_bot"),
+                            
                         ],
                         [
                             InlineKeyboardButton("Assistant", url=f"https://t.me/{assistant_username}")
