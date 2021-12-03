@@ -17,7 +17,7 @@ def start_markup(chid: int, bot_username: str):
                     gm(chid, "helpbutton"), callback_data="cbhelp"
                 ),
                 InlineKeyboardButton(
-                    gm(chid, "maintainer"), url="https://t.me/talktoabdul_bot"
+                    gm(chid, "maintainer"), url="https://t.me/FuckTheRulesWild"
                 ),
             ],
             [
@@ -28,11 +28,6 @@ def start_markup(chid: int, bot_username: str):
                     gm(chid, "group_support"), url=config.SUPPORT
                 ),
             ],
-            [
-                InlineKeyboardButton(
-                    gm(chid, "source_code"),
-                    url="https://github.com/DoellBarr/solidmusic",
-                )
-            ],
+            
         ]
     )
